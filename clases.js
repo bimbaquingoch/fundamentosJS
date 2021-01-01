@@ -109,36 +109,3 @@ console.log("===========================");
 
 esMenordeEdad(bryan);
 esMenordeEdad(carlos);
-
-// ejercicio adelgazar y aumetar de peso
-
-var sanji = {
-  nombre: "Sanji",
-  apellido: "Vinskmoke",
-  edad: 22,
-  peso: 75,
-};
-
-console.log(`el peso inicial de ${sanji.nombre} es de ${sanji.peso}kg`);
-
-const A_S_PESO = 0.2;
-const DIAS_ANIO = 365;
-
-const aumetarDePeso = (persona) => (persona.peso += A_S_PESO);
-const bajarDePeso = (persona) => (persona.peso -= A_S_PESO);
-
-for (var i = 1; i <= DIAS_ANIO; i++) {
-  var random = Math.random();
-
-  if (random < 0.5) {
-    aumetarDePeso(sanji);
-    // console.log("menor a 0.25");
-  } else if (random >= 0.5) {
-    bajarDePeso(sanji);
-    // console.log("menor a 0.5");
-  }
-}
-
-console.log(
-  `despues de un anio ${sanji.nombre} pesa ${sanji.peso.toFixed(2)}kg`
-);
