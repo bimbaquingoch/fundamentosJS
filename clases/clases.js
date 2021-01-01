@@ -50,16 +50,19 @@ function mayordeEdad(persona) {
 mayordeEdad(bryan);
 mayordeEdad(carlos);
 
-// // arrow function
+// arrow function
 // esta es una forma de escribir un arrow function, que si necesitamos que solo
 // nos regrese un valor, está bien.
 // pero si necesitamos una funcion mas compleja, despues de la flecha, utilizar
 // llaves porque estas definen el cuerpo de la funcion
 
 const validarEdad = (persona) => persona.edad >= MAYORIA_DE_EDAD;
+// con destructuracion sería así
+
+const valida = ({ edad }) => edad >= MAYORIA_DE_EDAD;
 
 function mayor(persona) {
-  if (validarEdad(persona)) {
+  if (valida(persona)) {
     console.log(`${persona.nombre} es mayor de edad`);
   } else {
     console.log(`${persona.nombre} es menor de edad`);
