@@ -1,0 +1,63 @@
+Red ==== Manejo de Strings
+Bueno para crear canedas de caracteres se lo puede hacer de las
+siguientes formas.
+
+    var nombre = 'Bryan';
+    var str = nombre.charAt(1);
+    console.log(str);
+
+    esto lo que va a devolver o imprimir en pantalla será la 
+    letra r, porque como es un string y los strings se los
+    puede manejar como una pila o arreglo, este empieza desde
+    la posición 0 y en la asignación de variable en str
+    le decimos que obtenga un caracter en la posición 1 
+    entonces por eso devuelve la letra r
+
+    Otra forma de hacerlo pero mejor es crear un substring
+    del string original
+
+    var str = nombre.substr(1,2)
+
+    esto lo que hace es que desde la pocición 1 tomará los caracteres
+    hasta la posición 2, a esta función también se le puede
+    pasar un parametro extra que simboliza los pasos
+    a saltar para obtener un nuevo substring.
+
+Red ================ Objetos
+
+var persona = {
+  nombre: 'Bryan',
+  apellido: 'Imbaquingo',
+  edad: 22
+}
+
+aquí le mandamos el objeto entero
+
+function nombreMayusculas(persona){
+    console.log(persona.nombre.toUpperCase());
+}
+
+aquí solo le decimos que queremos recibir en la funcion un 
+atributo que pertenece a un objeto, eso se denota con 
+las llaves
+
+function nombreMayusculas({ nombre }){
+  console.log(nombre.toUpperCase());
+}
+
+Red =========== Destrucuración
+
+Orange
+
+function nombreMayusculas(persona){
+  //var nombre = persona.nombre;
+  var { nombre } = persona;
+  // las 2 líneas son equivalentes.
+  console.log(nombre.toUpperCase());
+}
+
+Orange ================ Arrow functions funciones flecha 
+
+asignar a una variable una función, observar el código de ./clases/clases.js
+desde la línea 52 las arrow function
+
