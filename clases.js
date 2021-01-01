@@ -57,8 +57,8 @@ mayordeEdad(carlos);
 // llaves porque estas definen el cuerpo de la funcion
 
 const validarEdad = (persona) => persona.edad >= MAYORIA_DE_EDAD;
-// con destructuracion sería así
 
+// con destructuracion sería así
 const valida = ({ edad }) => edad >= MAYORIA_DE_EDAD;
 
 function mayor(persona) {
@@ -71,3 +71,41 @@ function mayor(persona) {
 
 mayor(bryan);
 mayor(carlos);
+
+function permitirAcceso(persona) {
+  if (!validarEdad(persona)) {
+    console.log("ACCESO DENEGADO");
+  } else {
+    console.log("BIENVENIDO");
+  }
+}
+
+permitirAcceso(bryan);
+permitirAcceso(carlos);
+
+// RETO
+const EDAD_LEGAL = 18;
+
+const edadMayor = ({ edad }) => {
+  return edad >= EDAD_LEGAL;
+};
+
+const validaMayor = (persona) => {
+  if (edadMayor(persona)) {
+    console.log(`${persona.nombre} es mayor de edad`);
+  } else {
+    console.log(`${persona.nombre} es menor de edad`);
+  }
+};
+
+const esMenordeEdad = (persona) => {
+  !validaMayor(persona);
+};
+
+console.log("===========================");
+
+// validaMayor(bryan);
+// validaMayor(carlos);
+
+esMenordeEdad(bryan);
+esMenordeEdad(carlos);
