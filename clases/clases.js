@@ -57,3 +57,14 @@ mayordeEdad(carlos);
 // llaves porque estas definen el cuerpo de la funcion
 
 const validarEdad = (persona) => persona.edad >= MAYORIA_DE_EDAD;
+
+function mayor(persona) {
+  if (validarEdad(persona)) {
+    console.log(`${persona.nombre} es mayor de edad`);
+  } else {
+    console.log(`${persona.nombre} es menor de edad`);
+  }
+}
+
+mayor(bryan);
+mayor(carlos);
