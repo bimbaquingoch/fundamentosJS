@@ -83,4 +83,18 @@ prototipos, estos hacen de clases.
 
 ===== Herencia, bueno "herencia"
 
-Herencia prototipal: 
+Herencia prototipal: ./clasesPrototipos.js
+
+============== Funciones como parámetros 
+./clasesPrototipos.js
+
+Red ============== Asyncronismo en JS 
+
+Event loop: 
+Call stack: 
+
+callback: es un funcion que se ejecuta cuando regresa la respuesta del servidor
+
+Red =============== Tiempos en JS 
+./tiemposenJS.html
+

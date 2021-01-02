@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tiempos en JS</title>
+  </head>
+  <body>
+    <script>
+      // console.log("a");
+      //esta función JS la envia a que la ejecute el navegador
+      // mientras JS sigue con la siguiente linea de codigo
+      // hasta terminar sus tareas, una vez JS termina sus tareas
+      // el navegador ejecutaba en paralelo la tarea que le envió
+      // y la muestra al final
+      // setTimeout(() => console.log("b"), 0);
+      // console.log("c");
+
+      setTimeout(() => console.log("d"), 2000);
+      for (var i = 0; i < 10000; i++) {
+        console.log("j");
+      }
+    </script>
+  </body>
+</html>
