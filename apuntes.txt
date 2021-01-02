@@ -94,7 +94,23 @@ Event loop:
 Call stack: 
 
 callback: es un funcion que se ejecuta cuando regresa la respuesta del servidor
+          es una función que se va a ejecutar en un futuro pero que el 
+          $get(), la va a llamar
 
 Red =============== Tiempos en JS 
 ./tiemposenJS.html
 
+Red ======== Promesas
+
+Promesas: Valores que aún no conocemos
+    
+    tienens 3 estados:
+    > Pending: Cuando se crea la promesa, empieza por este estado.
+    > filfilled: si la promesa se resuelve, pasa a este estado
+          .then()
+    > rejected: si ocurre un error, cambia a este estado.
+          .catch()
+
+Red ============== Async Await
+
+./asyncAwait.js
