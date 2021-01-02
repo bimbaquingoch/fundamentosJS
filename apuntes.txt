@@ -61,3 +61,26 @@ Orange ================ Arrow functions funciones flecha
 asignar a una variable una función, observar el código de ./clases/clases.js
 desde la línea 52 las arrow function
 
+Asigna una función pero cambia el this dentro de la función
+
+Red ================ Arrays
+
+=== Transformacion de arrays
+
+Funcion Map: devuelve un nuevo array que modifica cada elemento que le indiquemos
+             del array original.
+
+=== Reducir un array a un valor
+
+Reduce: Es una función que permite reducir un array a un valor unico,
+        esta función rebice como parametros una función y el acumulador
+        inicial.
+
+Red =============== Clases en Javascript
+
+Las clases como tal las clases no existen, pero aquí se maneja algo que se llama
+prototipos, estos hacen de clases.
+
+===== Herencia, bueno "herencia"
+
+Herencia prototipal: 
