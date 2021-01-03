@@ -114,3 +114,7 @@ Promesas: Valores que aún no conocemos
 Red ============== Async Await
 
 ./asyncAwait.js
+
+Red =========== THIS 
+
+https://filisantillan.com/blog/this-en-diferentes-situaciones-y-su-comportamiento/
