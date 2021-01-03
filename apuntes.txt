@@ -118,3 +118,22 @@ Red ============== Async Await
 Red =========== THIS 
 
 https://filisantillan.com/blog/this-en-diferentes-situaciones-y-su-comportamiento/
+
+Red ========== var let y const
+
+var: cuando se decalra variables con var hay que declararlas arriba 
+     del todo para que quede bien claro cual es la variable/es 
+     que van a recibirse en la función
+let: reduce el alcance de la variable, porque solo se asigna en el bloque de 
+     código donde es utilizado
+
+const: es similar a let solo que declaraciones con esta palabra reservada
+       crea constantes, esto quiere decir que no se puede reasignar
+       valores en las variables, lo que si se puede hacer es modificar el 
+       contenido si se trata de un array
+
+
+
+
+
+
