@@ -132,8 +132,8 @@ const: es similar a let solo que declaraciones con esta palabra reservada
        valores en las variables, lo que si se puede hacer es modificar el 
        contenido si se trata de un array
 
+Red =============== Manejo de fechas con JS 
 
-
-
+./manejoFechas.js : ahí está
 
 
