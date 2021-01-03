@@ -136,4 +136,11 @@ Red =============== Manejo de fechas con JS
 
 ./manejoFechas.js : ahí está
 
+visitar esta web 
+https://app.codesignal.com/
+
+
+Red ========== closures
+
+Closure: es un función que recuerda el estado de las cosas cuando fue invicada.
 
